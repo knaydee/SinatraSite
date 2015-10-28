@@ -2,6 +2,10 @@ require "sinatra"
 
 class MySite < Sinatra::Base
 
+  get "/" do
+    erb: index
+  end
+  
   get "/index.html" do
     erb :index
   end
