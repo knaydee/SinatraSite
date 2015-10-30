@@ -55,7 +55,7 @@ table {
 
 nav {
   text-align: center;
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 footer {
@@ -84,11 +84,27 @@ ul {
   height: 100px;
 }
 
-img {
+img:hover {
   -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  transform: scale(1.1)
 }
 
-img:hover {
-  -webkit-filter: grayscale(0%);
-  transform: scale(1.1)
+#mainheader {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.bheader {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+td {
+  padding-top: 10px;
+}
+
+#daycount {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
 }

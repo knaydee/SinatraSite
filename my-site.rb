@@ -15,6 +15,7 @@ class MySite < Sinatra::Base
   get "/about.html" do
     @h1 = "About Meighan"
     @h4 = "Here's some stuff you should know about me..."
+    @days_at_ada = (Date.today - Date.parse("2015-09-22")).to_i
     erb :about
   end
 
