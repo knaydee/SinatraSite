@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>"Meighs' Page"</title>
+    <meta name="viewport" content="width=device width">
+    <link href="shamrock-1.ico" rel="shortcut icon" type="image/png">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1><%= @h1 %></h1>
+      <h4><%= @h4 %></h4>
+    </header>
+    <%= yield %>
+    <nav>
+      <a href="./index.html">Home</a> |
+      <a href="./projects.html">Projects</a> |
+      <a href="./blog.html">Blog</a> |
+      <a href="./about.html">About</a>
+    </nav>
+    <footer>
+      <p>Feel free to follow and contact me!</p>
+      <a href="http://www.facebook.com/meighan.rasley"><img alt="follow me on facebook" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_facebook-48.png"></a>
+      <a href="http://www.twitter.com/knaydee"><img alt="follow me on twitter" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_twitter-48.png"></a>
+      <a href="https://google.com/+MeighanRasley"><img alt="follow me on google plus" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/google_plus_online_social_media-48.png"></a>
+      <a href="http://www.pinterest.com/meighanrasley"><img alt="follow me on pinterest" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_pinterest-48.png"></a>
+      <a href="http://github.com/knaydee"><img alt="follow me on github" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_six_color-48.png"></a>
+      <p id="copyleft">&copy Meighan Rasley <%= DateTime.now.year %></p>
+    </footer>
+  </body>
+</html>
