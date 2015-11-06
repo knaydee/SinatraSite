@@ -8,7 +8,7 @@ header {
   text-align: center;
   color: #333333;
   background-color: #679CBE;
-  /*padding-bottom: 5px;*/
+  padding-bottom: 5px;
 }
 
 h1 {
@@ -87,7 +87,7 @@ ul {
 img:hover {
   -webkit-filter: grayscale(100%);
   -webkit-transition: .5s ease-in-out;
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 #mainheader {
